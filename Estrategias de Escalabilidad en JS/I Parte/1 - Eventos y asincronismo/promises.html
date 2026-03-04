@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de Promises</title>
+</head>
+<body>
+  <h1>Ejemplo de Promesas en JavaScript</h1>
+
+  <script>
+    const promesa = new Promise((resolve, reject) => {
+      let exito = true;
+      if (exito) {
+        resolve("La operación fue exitosa");
+      } else {
+        reject("Hubo un error");
+      }
+    });
+
+    promesa
+      .then(mensaje => console.log(mensaje))
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>

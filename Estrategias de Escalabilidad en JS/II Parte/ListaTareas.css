@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  background: #f4f6f9;
+  color: #2c3e50;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  width: 250px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Lista de tareas */
+#taskList {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#taskList li {
+  background: #ecf0f1;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 8px solid #2ecc71;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+#taskList li:hover {
+  transform: scale(1.02);
+}
+
+/* Botón eliminar */
+#taskList button {
+  background: #e74c3c;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#taskList button:hover {
+  background: #c0392b;
+}

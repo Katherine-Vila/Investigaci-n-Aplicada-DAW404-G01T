@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejecución Síncrona</title>
+</head>
+<body>
+  <h1>Ejemplo de ejecución síncrona</h1>
+  <p>Abre la consola del navegador para ver el resultado.</p>
+
+  <script>
+    console.log("1. Inicio");
+
+    // Simulación de tarea bloqueante (espera activa 2 segundos)
+    function tareaSincrona() {
+      let inicio = Date.now();
+      while (Date.now() - inicio < 2000) {
+        // Bloquea el hilo principal
+      }
+      return "Contenido simulado";
+    }
+
+    const data = tareaSincrona(); // El programa se detiene aquí
+    console.log("2. Contenido:", data);
+    console.log("3. Fin");
+  </script>
+</body>
+</html>

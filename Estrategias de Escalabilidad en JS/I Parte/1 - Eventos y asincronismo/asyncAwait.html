@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Async/Await</title>
+</head>
+<body>
+  <h1>Ejemplo de Async/Await en JavaScript</h1>
+  <p>Abre la consola del navegador para ver los resultados.</p>
+
+  <script>
+    // Función que simula una tarea asíncrona con promesa
+    function tareaAsincrona() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve("La tarea terminó correctamente");
+        }, 2000); // simula 2 segundos de espera
+      });
+    }
+
+    // Uso de async/await
+    async function ejecutar() {
+      console.log("Inicio de la tarea...");
+
+      try {
+        const resultado = await tareaAsincrona(); // espera la promesa
+        console.log(resultado); // muestra el mensaje de la promesa
+      } catch (error) {
+        console.error("Error:", error);
+      }
+
+      console.log("Fin de la ejecución");
+    }
+
+    // Llamada a la función
+    ejecutar();
+  </script>
+</body>
+</html>

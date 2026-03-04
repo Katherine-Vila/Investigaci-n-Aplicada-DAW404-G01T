@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejecución Asíncrona</title>
+</head>
+<body>
+  <h1>Ejemplo de ejecución asíncrona</h1>
+  <p>Abre la consola del navegador para ver el resultado.</p>
+
+  <script>
+    console.log("1. Inicio");
+
+    // Simulación de tarea asíncrona con setTimeout
+    function tareaAsincrona(callback) {
+      setTimeout(() => {
+        callback("Contenido simulado");
+      }, 2000); // espera 2 segundos sin bloquear
+    }
+
+    tareaAsincrona((data) => {
+      console.log("2. Contenido:", data);
+    });
+
+    console.log("3. Fin");
+  </script>
+</body>
+</html>

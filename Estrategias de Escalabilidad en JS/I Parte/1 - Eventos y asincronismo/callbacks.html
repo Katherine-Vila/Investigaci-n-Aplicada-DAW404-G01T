@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de Callbacks</title>
+</head>
+<body>
+  <h1>Ejemplo de Callbacks en JavaScript</h1>
+
+  <script>
+    function saludar(nombre, callback) {
+      console.log("Hola " + nombre);
+      callback();
+    }
+
+    saludar("Katherine", function() {
+      console.log("Este es un callback sencillo");
+    });
+  </script>
+</body>
+</html>
