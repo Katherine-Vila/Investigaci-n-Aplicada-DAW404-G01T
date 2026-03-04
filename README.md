@@ -1,2 +1,27 @@
-# Investigaci-n-Aplicada-DAW404-G01T
+# Investigacion-Aplicada-DAW404-G01T
 Fundamentos de JavaScript y su Aplicación en Desarrollo Web
+
+## Descripción
+Proyecto académico de Investigación Aplicada 1.  
+Implementa estrategias de escalabilidad en JavaScript, con énfasis en:
+- Manejo de eventos.
+- Ejecución síncrona y asíncrona.
+- Callbacks, Promises y Async/Await.
+- Impacto en el rendimiento de aplicaciones web dinámicas.
+
+## Estructura del proyecto
+- **I Parte**
+  - Eventos y asincronismo: `eventos.html`, `callbacks.html`, `promises.html`, `asyncAwait.html`.
+  - Ejecución síncrona y asíncrona: `Caso Síncrono.html`, `Caso Asíncrono.html`.
+- **II Parte**
+  - Lista de tareas: `ListaTareas.html`, `ListaTareas.css`, `ListaTareas.js`.
+
+## Ejecución
+1. Clonar el repositorio.
+2. Abrir los ejemplos de la carpeta **I Parte** en el navegador para probar eventos, callbacks, promises y async/await.
+3. Abrir `ListaTareas.html` en la carpeta **II Parte** para probar la aplicación completa.
+4. Usar la consola del navegador para observar los mensajes de ejecución síncrona y asíncrona.
+
+## Autor
+Katherine Alexandra Pinto Vila  
+Carnet: PV251591
