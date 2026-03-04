@@ -18,8 +18,8 @@ Implementa estrategias de escalabilidad en JavaScript, con énfasis en:
 
 ## Ejecución
 1. Clonar el repositorio.
-2. Abrir los ejemplos de la carpeta **I Parte** en el navegador para probar eventos, callbacks, promises y async/await.
-3. Abrir `ListaTareas.html` en la carpeta **II Parte** para probar la aplicación completa.
+2. Abrir los ejemplos de la carpeta **Primera Parte** en el navegador para probar eventos, callbacks, promises y async/await.
+3. Abrir `ListaTareas.html` en la carpeta **Segunda Parte** para probar la aplicación completa.
 4. Usar la consola del navegador para observar los mensajes de ejecución síncrona y asíncrona.
 
 ## Autor
