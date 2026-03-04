@@ -10,10 +10,10 @@ Implementa estrategias de escalabilidad en JavaScript, con énfasis en:
 - Impacto en el rendimiento de aplicaciones web dinámicas.
 
 ## Estructura del proyecto
-- **I Parte**
+- **Primera Parte**
   - Eventos y asincronismo: `eventos.html`, `callbacks.html`, `promises.html`, `asyncAwait.html`.
   - Ejecución síncrona y asíncrona: `Caso Síncrono.html`, `Caso Asíncrono.html`.
-- **II Parte**
+- **Segunda Parte**
   - Lista de tareas: `ListaTareas.html`, `ListaTareas.css`, `ListaTareas.js`.
 
 ## Ejecución
